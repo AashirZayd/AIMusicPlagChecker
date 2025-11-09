@@ -66,3 +66,5 @@ Example:
 ```bash
 git clone https://github.com/AashirZayd/music-plagiarism-detector.git
 cd music-plagiarism-detector
+
+### Setup Virtual Environment
