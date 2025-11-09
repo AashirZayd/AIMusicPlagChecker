@@ -64,5 +64,5 @@ Example:
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/music-plagiarism-detector.git
+git clone https://github.com/AashirZayd/music-plagiarism-detector.git
 cd music-plagiarism-detector
