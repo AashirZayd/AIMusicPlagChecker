@@ -56,7 +56,7 @@ This project is built with a **Flask backend (Python)** for model processing and
 > _(Use the built-in 📸 Screenshot button in the app to take and upload a preview image here.)_
 
 Example:
-![Preview UI](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Preview UI])
 
 ---
 
