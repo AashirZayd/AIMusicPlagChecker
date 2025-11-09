@@ -60,11 +60,90 @@ Example:
 
 ---
 
-## 🧰 Installation
+### 🧰 Installation & Setup Guide
 
-### 1️⃣ Clone Repository
+Follow these steps to set up and run the **AI Music Plagiarism Detector** on your system.
+
+---
+
+#### 🧩 Step 2: Setup Virtual Environment
+
 ```bash
-git clone https://github.com/AashirZayd/music-plagiarism-detector.git
-cd music-plagiarism-detector
+python -m venv venv
+venv\Scripts\activate     # on Windows
+source venv/bin/activate  # on Mac/Linux
+```
 
-### Setup Virtual Environment
+---
+
+#### 📦 Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+This installs all necessary packages including Flask, TensorFlow, FAISS, OpenL3, and CustomTkinter.
+
+---
+
+#### ⚙️ Step 4: Run the Flask Backend
+
+```bash
+python app.py
+```
+
+Once started, the backend runs locally at:
+
+```
+http://127.0.0.1:5000
+```
+
+Keep this terminal open while the app is running.
+
+---
+
+#### 💻 Step 5: Launch the Frontend UI
+
+```bash
+python frontend_ui.py
+```
+
+This opens the interactive **GitHub-styled desktop interface** where you can:
+
+* Upload audio and lyrics files
+* Run plagiarism analysis
+* View similarity results
+* Save reports or screenshots
+
+---
+
+### 📂 Folder Structure
+
+```
+music-plagiarism-detector/
+│
+├── app.py                         # Flask backend for AI processing
+├── frontend_ui.py                 # CustomTkinter frontend (GitHub-style UI)
+├── requirements.txt               # Python dependencies
+│
+├── scripts/                       # Core similarity logic
+│   ├── check_audio_sim.py
+│   ├── check_lyrics_similarity.py
+│   └── check_hybrid_simf.py
+│
+├── utils/                         # Helper utilities
+│   ├── openl3_utils.py
+│   ├── lyrics_utils.py
+│   └── ...
+│
+├── data/                          # Uploads & results
+│   └── uploads/
+│
+├── github_icon.png                # GitHub logo icon used in UI
+└── README.md                      # Project documentation
+```
+
+---
+
+✅ After completing these steps, your AI Music Plagiarism Detector will be fully operational and ready for use.
+
