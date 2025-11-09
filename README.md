@@ -120,7 +120,7 @@ This opens the interactive **GitHub-styled desktop interface** where you can:
 ### 📂 Folder Structure
 
 ```
-music-plagiarism-detector/
+Plag/
 │
 ├── app.py                         # Flask backend for AI processing
 ├── frontend_ui.py                 # CustomTkinter frontend (GitHub-style UI)
