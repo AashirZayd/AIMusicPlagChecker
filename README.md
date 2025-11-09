@@ -54,7 +54,7 @@ This project is built with a **Flask backend (Python)** for model processing and
 ## 🖥️ Frontend Preview
 
 <img width="1919" height="888" alt="Screenshot 2025-11-09 235557" src="https://github.com/user-attachments/assets/df43ea7c-f264-48a1-ab15-9334c7ea02ba" />
-<img width="1913" height="986" alt="Screenshot 2025-11-09 234426" src="https://github.com/user-attachments/assets/8981f5cd-27fe-43a9-a624-703e7cff58a6" />
+
 
 ---
 
